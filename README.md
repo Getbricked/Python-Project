@@ -1,5 +1,4 @@
-Python version 3.11.1
-Password Checker version 1.0
+Python version 3.11.1 - Password Checker version 1.0
 
 This program will check your password strength bases on these requirements:
 1. Length of your password (8-20 characters)
