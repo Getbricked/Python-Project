@@ -5,7 +5,7 @@ This program will check your password strength bases on these requirements:
 2. Contain at least 1 upper/lower/special/digit
 3. Must not be found in common dictionary
 
-This program is built with tk 0.1.0 as graphics display! Which means you must have this library to run this program.
+This program is built with tk 0.1.0 as graphics display! Which means you must have this library to run the program.
 
 To run the project you need to:
 1. Install python 3
