@@ -18,7 +18,7 @@ def start():
     pwlen = len(pw)
 
     # open dictionary
-    with open('source/password.txt', 'r') as f:
+    with open('password.txt', 'r') as f:
         common = f.read().splitlines()
 
     # try to find the input password in dictionary
