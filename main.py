@@ -8,6 +8,7 @@ from tkinter.messagebox import showinfo
 from source import pwchecker
 from source import intro
 
+# function that create the window
 def program():
     
     window = tk.Tk()
