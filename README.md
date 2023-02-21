@@ -15,3 +15,6 @@ To run the project you need to:
     install command: pip install tk
 3. Run the main.exe file.
 
+Future possibilities:
+    - Adding more common dictionaries
+    - Adding a feature allow user to generate random strong passwords
