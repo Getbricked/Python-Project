@@ -1,3 +1,6 @@
+# create the program window with its functions
+
+
 import tkinter as tk
 from tkinter import ttk
 from tkinter.messagebox import showinfo
@@ -6,7 +9,7 @@ from source import pwchecker
 from source import intro
 
 def program():
-    # create window
+    
     window = tk.Tk()
     window.geometry("300x150")
     window.resizable(False, False)
@@ -55,6 +58,7 @@ def program():
     reveal_button.pack(fill='x', expand=True, pady=10)
 
     window.mainloop()
-    
+
+# run the program    
 if __name__=="__main__":
     program()

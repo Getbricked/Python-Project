@@ -1,3 +1,6 @@
+# create introduction window
+# contains introduction and button to move on to next main window
+
 import tkinter as tk
 from tkinter import ttk
 from tkinter.messagebox import showinfo
@@ -5,7 +8,7 @@ from tkinter.messagebox import showinfo
 import string
 
 def introduction():
-    # create introduction window
+
     intro = tk.Tk()
     intro.geometry("500x250")
     intro.resizable(False, False)
@@ -15,7 +18,6 @@ def introduction():
     frame = ttk.Frame(intro)
     frame.pack(padx=10, pady=10, fill='x', expand=True)
     
-
     
     # text using for label
     line1 = "                             Password checker version 1.0"
@@ -37,12 +39,10 @@ def introduction():
 
     bottom_label = ttk.Label(intro, text=line8.upper(), background="red")
     bottom_label.pack(fill='x', expand=True)
-    # jump from intro to main
-    def jump():
-        intro.destroy()
+    
             
-    # create a button
-    button = ttk.Button(intro, text="Start the program!", command=jump)
+    # create button to close intro
+    button = ttk.Button(intro, text="Start the program!", command=intro.destroy)
     button.pack(fill='x', expand=True, pady=10)
     
     intro.mainloop()
