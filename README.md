@@ -2,9 +2,9 @@ Python version 3.11.1
 Password Checker version 1.0
 
 This program will check your password strength bases on these requirements:
-    - Length of your password (8-20 characters)
-    - Contain at least 1 upper/lower/special/digit
-    - Must not be found in common dictionary
+1. Length of your password (8-20 characters)
+2. Contain at least 1 upper/lower/special/digit
+3. Must not be found in common dictionary
 
 This program is built with tk 0.1.0 as graphics display! Which means you must have this library to run this program.
 
