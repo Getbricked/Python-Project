@@ -16,5 +16,5 @@ To run the project you need to:
 3. Run the main.exe file.
 
 Future possibilities:
-    - Adding more common dictionaries
-    - Adding a feature allow user to generate random strong passwords
+1. Adding more common dictionaries
+2. Adding a feature allow user to generate random strong passwords
