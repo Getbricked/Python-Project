@@ -1,0 +1,3 @@
+This program requires these libraries:
+tk 0.1.0 - https://pypi.org/project/tk/
+install command: pip install tk
