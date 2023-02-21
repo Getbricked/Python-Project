@@ -47,6 +47,7 @@ def program():
     check_button = ttk.Button(screen, text="Check", command=check_clicked)
     check_button.pack(fill='x', expand=True, pady=10)
 
+    """ Reveal the input password """
     def reveal():
         
         msg = f'Entered password: {password.get()}'
@@ -61,6 +62,6 @@ def program():
 
     window.mainloop()
 
-   
+""" Run the program if it is executed """
 if __name__=="__main__":
     program()
