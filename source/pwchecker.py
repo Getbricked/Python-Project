@@ -6,7 +6,7 @@ from tkinter.messagebox import showinfo
 pw = "test"
 
 """ password checker
-# check 4 conditions:
+check 4 conditions:
 # length of the pw (8-20)
 # checking if the pw exist in dictionary
 # checking if the pw has enough types of characters

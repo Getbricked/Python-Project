@@ -1,6 +1,3 @@
-
-
-
 import tkinter as tk
 from tkinter import ttk
 from tkinter.messagebox import showinfo
@@ -8,7 +5,14 @@ from tkinter.messagebox import showinfo
 from source import pwchecker
 from source import intro
 
-"""create the program window with its functions"""
+"""create the program window with its functions
+# window - create display window
+# password - the string using to store our input password
+# screen - frame of window
+# password_label - display text above input box
+# password_entry - display the typed input
+# check_button - button to execute commands
+"""
 def program():
     
     window = tk.Tk()

@@ -5,7 +5,10 @@ from tkinter.messagebox import showinfo
 import string
 
 """ create introduction window
-contains introduction and button to move on to next main window
+# intro - create display window
+# frame - create fram of intro
+# line1-8 - input text for label
+# button_label - button to display commands
 """
 def introduction():
 
