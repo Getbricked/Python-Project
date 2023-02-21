@@ -1,9 +1,10 @@
-# password checker
+""" 
+password checker
 # check 4 conditions:
 # length of the pw (8-20)
 # checking if the pw exist in dictionary
 # checking if the pw has enough types of characters
-
+"""
 import string
 import tkinter as tk
 from tkinter import ttk
@@ -21,7 +22,7 @@ def start():
     
     pwcheck = [upper_case, lower_case, specials, digits]
 
-   
+    
     pwlen = len(pw)
 
     
