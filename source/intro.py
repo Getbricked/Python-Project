@@ -1,13 +1,12 @@
-""" 
-create introduction window
-contains introduction and button to move on to next main window
-"""
 import tkinter as tk
 from tkinter import ttk
 from tkinter.messagebox import showinfo
 
 import string
 
+""" create introduction window
+contains introduction and button to move on to next main window
+"""
 def introduction():
 
     intro = tk.Tk()

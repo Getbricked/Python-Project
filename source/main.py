@@ -1,6 +1,4 @@
-"""
-create the program window with its functions
-"""
+
 
 
 import tkinter as tk
@@ -10,6 +8,7 @@ from tkinter.messagebox import showinfo
 from source import pwchecker
 from source import intro
 
+"""create the program window with its functions"""
 def program():
     
     window = tk.Tk()

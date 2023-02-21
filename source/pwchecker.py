@@ -1,10 +1,3 @@
-""" 
-password checker
-# check 4 conditions:
-# length of the pw (8-20)
-# checking if the pw exist in dictionary
-# checking if the pw has enough types of characters
-"""
 import string
 import tkinter as tk
 from tkinter import ttk
@@ -12,6 +5,12 @@ from tkinter.messagebox import showinfo
 
 pw = "test"
 
+""" password checker
+# check 4 conditions:
+# length of the pw (8-20)
+# checking if the pw exist in dictionary
+# checking if the pw has enough types of characters
+"""
 def start():    
     
     upper_case = any([1 if c in string.ascii_uppercase else 0 for c in pw])
