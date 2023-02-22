@@ -5,13 +5,13 @@ from tkinter.messagebox import showinfo
 
 pw = "test"
 
-""" password checker
-check 4 conditions:
-# length of the pw (8-20)
-# checking if the pw exist in dictionary
-# checking if the pw has enough types of characters
-"""
-def start():    
+def start():
+    """ password checker
+    check 4 conditions:
+    # length of the pw (8-20)
+    # checking if the pw exist in dictionary
+    # checking if the pw has enough types of characters
+    """    
     
     upper_case = any([1 if c in string.ascii_uppercase else 0 for c in pw])
     lower_case = any([1 if c in string.ascii_lowercase else 0 for c in pw])
@@ -19,7 +19,7 @@ def start():
     digits = any([1 if c in string.digits else 0 for c in pw])
 
     
-    pwcheck = [upper_case, lower_case, specials, digits]
+    pwcheck = [upper_case, lower_case, specials, digits] #4
 
     
     pwlen = len(pw)
