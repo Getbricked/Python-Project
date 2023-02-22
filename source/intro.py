@@ -4,14 +4,14 @@ from tkinter.messagebox import showinfo
 
 import string
 
-""" create introduction window
-# intro - create display window
-# frame - create fram of intro
-# line1-8 - input text for label
-# button_label - button to display commands
-"""
-def introduction():
 
+def introduction():
+    """ create introduction window
+    # intro - create display window
+    # frame - create fram of intro
+    # line1-8 - input text for label
+    # button_label - button to display commands
+    """
     intro = tk.Tk()
     intro.geometry("500x250")
     intro.resizable(False, False)
