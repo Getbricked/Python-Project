@@ -5,16 +5,17 @@ from tkinter.messagebox import showinfo
 from source import pwchecker
 from source import intro
 
-"""create the program window with its functions
-# window - create display window
-# password - the string using to store our input password
-# screen - frame of window
-# password_label - display text above input box
-# password_entry - display the typed input
-# check_button - button to execute commands
-"""
 def program():
     
+    """create the program window with its functions
+    # window - create display window
+    # password - the string using to store our input password
+    # screen - frame of window
+    # password_label - display text above input box
+    # password_entry - display the typed input
+    # check_button - button to execute commands
+    """
+
     window = tk.Tk()
     window.geometry("300x150")
     window.resizable(False, False)
@@ -25,6 +26,7 @@ def program():
 
 
     def check_clicked():
+        """ assign the in put pw to the pwchecker.py and run the pwchecker.py """
         
         pwchecker.pw = password.get()
         
@@ -50,8 +52,9 @@ def program():
     check_button = ttk.Button(screen, text="Check", command=check_clicked)
     check_button.pack(fill='x', expand=True, pady=10)
 
-    """ Reveal the input password """
+    
     def reveal():
+        """ Reveal the input password """
         
         msg = f'Entered password: {password.get()}'
         showinfo(
@@ -65,6 +68,7 @@ def program():
 
     window.mainloop()
 
-""" Run the program if it is executed """
+
 if __name__=="__main__":
+    """ Run the program if it is executed """
     program()

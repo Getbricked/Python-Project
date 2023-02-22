@@ -19,7 +19,7 @@ def start():
     digits = any([1 if c in string.digits else 0 for c in pw])
 
     
-    pwcheck = [upper_case, lower_case, specials, digits] #4
+    pwcheck = [upper_case, lower_case, specials, digits] # max is 4
 
     
     pwlen = len(pw)
